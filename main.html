@@ -1,48 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="[https://fonts.googleapis.com/cssfamily=Anton|Baskervville|Raleway&display=swap](https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap)"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <title>PRODUCT PAGE</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <img id="header-img" src="" alt="">
-        <h3>Original Trombones</h3>
-        <nav id="nav-bar">
-            <ul>
-                <li class="nav-link"><a target="" href="">Features</a></li>
-                <li class="nav-link"><a target="" href="">How it works</a></li>
-                <li class="nav-link"><a target="" href="">Pricing</a></li>
-            </ul>
-        </nav>
+      <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="product-landing-page-logo" />
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a target="" href="">Features</a></li>
+          <li class="nav-link"><a target="" href="">How it works</a></li>
+          <li class="nav-link"><a target="" href="">Pricing</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <h1>Handcrafted, home-made masterpieces</h1>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input id="email" type="email" placeholder="Enter your email address"
-                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
-            <button id="submit" type="submit">Get started</button>
-            <section>
-                <h1>Premium Materials</h1>
-                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of
-                    your purchase.</p>
-            </section>
-            <section>
-                <h1>Fast Shipping</h1>
-                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free
-                    returns if you are not satisfied.</p>
-            </section>
-            <section>
-                <h1>Quality Assurance</h1>
-                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test
-                    the pitch of your instrument.</p>
-            </section>
-            <video src=""></video>
-        </form>
+        <section class="form-area">
+      <h1>Handcrafted, home-made masterpieces</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+        />
+        <button id="submit" type="submit">Get started</button>
+      </form>
+        </section>
+        <section class="product-qualities">
+        <section>
+            <i class="fas fa-fire"></i>
+          <h1>Premium Materials</h1>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </section>
+        <section>
+            <i class="fas fa-truck"></i>
+          <h1>Fast Shipping</h1>
+          <p>
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </section>
+        <section>
+            <i class="fas fa-battery-full"></i>
+          <h1>Quality Assurance</h1>
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </section>
+    </section>
+    <section class="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=DlC3BS7ZZUqueU1g"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+    </section>
+    <section class="product-pricing">
+        <div class="product-one">
+            <h6>Tenor Trombone</h6>
+            <h5>$600</h5>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <button type="submit">SELECT</button>
+        </div>
+        <div class="product-two">
+            <h6>Bass Trombone</h6>
+            <h5>$900</h5>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <button type="submit">SELECT</button>
+        </div>
+        <div class="product-three">
+            <h6>Valve Trombone</h6>
+            <h5>$1200</h5>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum.</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum.</p>
+            <button type="submit">SELECT</button>
+        </div>
+    </section>
     </main>
-</body>
+    <footer>
+        <a class="footer-tags" href="">Privacy</a>
+        <a class="footer-tags" href="">Terms</a>
+        <a class="footer-tags" href="">Conditions</a>
+        <p>Copyright 2016, Original Trombones</p>
+    </footer>
+  </body>
 </html>
