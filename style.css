@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+#header {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: sticky;
+  top: 0;
+}
+#nav-bar {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-link {
+  color: aliceblue;
+  background-color: teal;
+  height: 30%;
+  text-decoration: none;
+}
+#header-img {
+  background-color: brown;
+  width: 300px;
+  height: 70px;
+}
+main {
+  background-color: bisque;
+}
+.form-area {
+  text-align: center;
+  background-color: blue;
+}
+#email {
+  width: 300px;
+  height: 30px;
+  border: 0;
+}
+#submit {
+  margin-top: 15px;
+  width: 150px;
+  height: 25px;
+  font-weight: bolder;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  background-color: rgb(255, 174, 0);
+  border: 0;
+}
+.product-qualities {
+    background-color: aquamarine;
+}
+.product-qualities section {
+    background-color: brown;
+}
+footer {
+  background-color: cadetblue;
+}
