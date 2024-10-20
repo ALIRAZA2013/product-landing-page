@@ -79,6 +79,7 @@ span {
   font-family: Arial, Helvetica, sans-serif;
 }
 .product-qualities-description {
+  width: 90%;
   background-color: blue;
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
@@ -98,11 +99,10 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-content: space-evenly;
-  column-gap: 1px;
+  column-gap: 20px;
 }
 .product-s {
-  border: 3px solid black;
+  border: 1px solid black;
   width: 25%;
   text-align: center;
   vertical-align: text-top;
@@ -114,9 +114,30 @@ span {
   text-align: center;
   padding-top: 15px;
 }
-.product-s h3 {
+.product-s h3, h2 {
   margin: 0;
+  margin-top: 5px;
+}
+.product-s button {
+  width: 30%;
+  height: 35px;
+  font-size: large;
+  background-color: rgb(255, 174, 0);
 }
 footer {
-  background-color: cadetblue;
+  background-color: rgb(207, 207, 207);
+  height: 100px;
+  text-align: right;
+  padding-top: 28px;
+  padding-right: 20px;
+}
+.footer-tags {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+  margin: 0 5px;
+}
+footer p {
+  margin: 0;
+  margin-top: 5px;
 }
